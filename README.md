@@ -6,65 +6,66 @@ They always feel its very difficult, which isn't the case. I created this repo t
 of contributing to open source projects, basically, **fork -> clone -> edit -> pull request** workflow that you'll encounter often as a contributor. Please make sure you have **git** installed on your local computer and follow the simple guide below to make your first contribution.
 
 ## FORK THIS REPOSITORY
-![fork](./assets/fork-repository.png)       
-Click on the `**fork**` button to create a copy of this repository into your own github account. 
-Please don't forget to give this repo a star ⭐ as well. Thanks for doing that.          
-   
 
-## CLONE THE REPOSITORY  
-![clone](./assets/clone-repo.png)    
-Click on the `code` icon above and copy the link provided in the dropdown. Open your terminal and type in    
+![fork](./assets/fork-repository.png)  
+Click on the `**fork**` button to create a copy of this repository into your own github account.
+Please don't forget to give this repo a star ⭐ as well. Thanks for doing that.
+
+## CLONE THE REPOSITORY
+
+![clone](./assets/clone-repo.png)  
+Click on the `code` icon above and copy the link provided in the dropdown. Open your terminal and type in
+
 ```
-git clone paste-your-copied-link-in-here    
-The above command will clone your version of the repo onto your local machine    
-*Eg.* git clone https://github.com/BigBobLittle/first-contribution-africa.git 
+git clone paste-your-copied-link-in-here
+The above command will clone your version of the repo onto your local machine
+*Eg.* git clone https://github.com/BigBobLittle/first-contribution-africa.git
 ```
 
-## Change directory into the recently cloned folder 
+## Change directory into the recently cloned folder
 
-``` cd name-of-clone-folder    
-*Eg.* cd first-contribution-africa  
-```  
+```cd name-of-clone-folder
+*Eg.* cd first-contribution-africa
+```
 
+## CREATE A BRANCH
 
-## CREATE A BRANCH   
-``` 
-create a branch with the name of your choice  
-git branch -b your-prefered-branch-name 
+```
+create a branch with the name of your choice
+git branch -b your-prefered-branch-name
 *Eg.* git branch -b big-bob-little-branch
-```   
-
-
-
-## EDIT THE CODE 
-Open the `Contributors.md` in your text editor of choice, add your name and github profile link `[your name](your github link)` in the list.   
-Please note, in real projects, you have to add or modify the actual code in this stage. Add your actual contribution to the code. 
-
-
-## PUSH BACK TO GITHUB   
-push your branch back to github   
-
-__type the following commands in your project root terminal__
 ```
-git status 
-git add *  
-git commit -m "hooray, i also made a contribution to open source projects"    
-git push origin name-of-your-branch-here   
 
-eg. git push origin big-bob-little-branch 
+## EDIT THE CODE
 
-``` 
+Open the `Contributors.md` in your text editor of choice, add your name and github profile link `[your name](your github link)` in the list.  
+Please note, in real projects, you have to add or modify the actual code in this stage. Add your actual contribution to the code.
 
+## PUSH BACK TO GITHUB
 
-## What next 
-Contributing to open source projects will follow similar or same process. With the knowledge you have, go out there and create,    
-contribute towards any open source project of your choice.   
+push your branch back to github
 
-You can follow me if you want on github. I will often share similar resources. Thank you 🙏
+**type the following commands in your project root terminal**
 
+```
+git status
+git add *
+git commit -m "hooray, i also made a contribution to open source projects"
+git push origin name-of-your-branch-here
 
+eg. git push origin big-bob-little-branch
 
+```
 
+## PULL REQUEST
 
+When you go back to your github repo, (you may have to refresh), you will see the button `Compare & pull request`  
+Please click on it, fill in the pull request form and submit.
+Very soon, i'll merge to master and you'll get an email notification.
 
+## What next
 
+Contributing to open source projects will follow similar or same process. With the knowledge you have, go out there and create,  
+contribute towards any open source project of your choice.
+
+You can follow me on github. I will often share similar resources. Thank you 🙏
